@@ -17,11 +17,8 @@ public class PersonManagerApp {
 				Employee e = new Employee (firstName, lastName, number);
 				System.out.println("\n" + e + "\n");
 			}
-			
 			choice = Console.getString("\nEnter another? ","y", "n");
 		}
-		System.out.println("\nGoodbye");
-		
+		System.out.println("\nGoodbye");	
 	}
-
 }
